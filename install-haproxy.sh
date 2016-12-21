@@ -1,5 +1,5 @@
 # Compile and install HAProxy
-wget -O /tmp/haproxy.tgz http://www.haproxy.org/download/1.6/src/haproxy-1.6.3.tar.gz
+wget -O /tmp/haproxy.tgz http://www.haproxy.org/download/1.7/src/haproxy-1.7.1.tar.gz
 tar -zxvf /tmp/haproxy.tgz -C /tmp
 cd /tmp/haproxy-*
 make \
