@@ -9,6 +9,4 @@ make \
 make install
 cp /tmp/haproxy-current/examples/haproxy.init /etc/init.d/haproxy
 systemctl daemon-reload
-systemctl stop haproxy
-cp /usr/local/sbin/haproxy /usr/sbin/
-systemctl start haproxy
+systemctl stop haproxy && cp /usr/local/sbin/haproxy /usr/sbin/ && systemctl start haproxy
